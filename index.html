@@ -15,142 +15,215 @@
 
 <body>
 
-<header>
-    <div class="container header-inner">
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="container header-inner">
 
-        <p class="logo">
-            <strong>Lúcia Baptista</strong>
-        </p>
+            <p class="logo">
+                <strong>Lúcia Baptista</strong>
+            </p>
 
-        <nav aria-label="Navegação principal">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">Sobre / Currículo</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
 
-    </div>
-</header>
+                    <li>
+                        <a href="about.html">Sobre / Currículo</a>
+                    </li>
 
-<main>
+                    <li>
+                        <a href="portfolio.html">Portfólio</a>
+                    </li>
 
-    <!-- APRESENTAÇÃO -->
-    <section class="hero">
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
 
-        <div class="container">
-
-            <!-- FOTO DE PERFIL -->
-            <div class="foto">
-                <img 
-                    src="assets/img/foto.jpeg"
-                    alt="Foto de Lúcia Baptista"
-                    width="250"
-                    height="250"
-                >
-            </div>
-
-            <div class="hero-text">
-
-                <h1>Olá, sou Lúcia Baptista</h1>
-
-                <h2>Estudante de Informática</h2>
-
-                <p>
-                    Sou estudante de Informática, interessada em tecnologia,
-                    programação e desenvolvimento Web.
-                </p>
-
-                <a href="about.html" class="btn">
-                    Conheça o meu currículo
-                </a>
-
-            </div>
+                    <li>
+                        <a href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
 
         </div>
+    </header>
 
-    </section>
 
-    <!-- SOBRE MIM -->
-    <section>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="apresentacao">
+
+            <div class="container">
+
+                <h1>Apresentação</h1>
+
+                <div class="apresentacao-conteudo">
+
+                    <!-- FOTO -->
+                    <div class="foto">
+
+                        <img 
+                            src="assets/img/foto.jpeg"
+                            alt="Foto de Lúcia Baptista"
+                        >
+
+                    </div>
+
+
+                    <!-- TEXTO DE APRESENTAÇÃO -->
+                    <div class="texto-apresentacao">
+
+                        <h2>Olá, sou Lúcia Baptista!</h2>
+
+                        <p>
+                            Sou estudante de Informática e tenho interesse
+                            pela área de tecnologia, programação e
+                            desenvolvimento Web.
+                        </p>
+
+                        <p>
+                            Sou uma pessoa dedicada, responsável e com
+                            vontade de aprender novas ferramentas e
+                            conhecimentos na área de Informática.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ÁUDIO -->
+        <section class="audio-apresentacao">
+
+            <div class="container">
+
+                <h2>Áudio de Apresentação</h2>
+
+                <p>
+                    Ouça o meu áudio de apresentação:
+                </p>
+
+                <audio controls>
+
+                    <source
+                        src="assets/audio/audio.ogg"
+                        type="audio/ogg"
+                    >
+
+                    O seu navegador não suporta áudio.
+
+                </audio>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MIM -->
+        <section>
+
+            <div class="container">
+
+                <h2>Sobre mim</h2>
+
+                <p>
+                    Sou estudante de Informática, interessada em
+                    desenvolver conhecimentos e competências na área
+                    de tecnologia.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMPETÊNCIAS -->
+        <section>
+
+            <div class="container">
+
+                <h2>Competências</h2>
+
+                <div class="cards">
+
+                    <article>
+
+                        <h3>💻 Programação</h3>
+
+                        <p>
+                            Conhecimentos básicos de programação e
+                            desenvolvimento de soluções informáticas.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <h3>🌐 Desenvolvimento Web</h3>
+
+                        <p>
+                            Criação de páginas Web utilizando HTML e CSS.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <h3>📚 Aprendizagem</h3>
+
+                        <p>
+                            Interesse em aprender novas ferramentas
+                            e tecnologias.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
 
         <div class="container">
 
-            <h2>Sobre mim</h2>
+            <p>
+                <strong>Contactos:</strong>
+                861367029 / 852443036
+            </p>
 
             <p>
-                Sou estudante de Informática e tenho interesse em aprender
-                novas tecnologias, programação e desenvolvimento de páginas Web.
+                <strong>Redes:</strong>
+
+                <a href="#">Facebook</a> ·
+
+                <a href="#">LinkedIn</a> ·
+
+                <a href="#">GitHub</a>
+            </p>
+
+            <p>
+                Desenvolvido por Lúcia Baptista.
             </p>
 
         </div>
 
-    </section>
-
-    <!-- COMPETÊNCIAS -->
-    <section>
-
-        <div class="container">
-
-            <h2>Competências</h2>
-
-            <div class="cards">
-
-                <article>
-                    <h3>💻 Programação</h3>
-                    <p>
-                        Conhecimentos básicos de programação e desenvolvimento
-                        de soluções informáticas.
-                    </p>
-                </article>
-
-                <article>
-                    <h3>🌐 Desenvolvimento Web</h3>
-                    <p>
-                        Criação de páginas Web utilizando HTML e CSS.
-                    </p>
-                </article>
-
-                <article>
-                    <h3>📚 Aprendizagem</h3>
-                    <p>
-                        Interesse em aprender novas ferramentas e tecnologias.
-                    </p>
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-</main>
-
-<footer>
-
-    <div class="container">
-
-        <p>
-            <strong>Contactos:</strong>
-            861367029 / 852443036
-        </p>
-
-        <p>
-            <strong>Redes:</strong>
-            <a href="#">Facebook</a> ·
-            <a href="#">LinkedIn</a> ·
-            <a href="#">GitHub</a>
-        </p>
-
-        <p>
-            Desenvolvido por Lúcia Baptista.
-        </p>
-
-    </div>
-
-</footer>
+    </footer>
 
 </body>
 </html>
