@@ -1,0 +1,16 @@
+
+/* Mobile-first: os estilos base foram pensados para ecrãs pequenos. */
+
+.container { width: min(1100px, 92%); margin-inline: auto; }
+
+@media (min-width: 481px) {
+  .header-inner { flex-direction: row; justify-content: space-between; align-items: center; }
+  .hero { padding: 3rem; }
+}
+
+@media (min-width: 769px) {
+  main { padding: 3rem 0; }
+  .hero { min-height: 75vh; }
+  .header-inner { padding: 1rem 0; }
+  nav ul { gap: .5rem; }
+}

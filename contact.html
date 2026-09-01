@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículo pessoal e portfólio de estudante de Informática.">
+  <title>Contacto | Lúcia Baptista</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <p class="logo"><strong>Lúcia Baptista</strong></p>
+    <nav aria-label="Navegação principal"><ul><li><a class="" href="index.html">Home</a></li><li><a class="" href="about.html">Sobre / Currículo</a></li><li><a class="" href="portfolio.html">Portfólio</a></li><li><a class="" href="hobbies.html">Hobbies</a></li><li><a class="active" href="contact.html">Contacto</a></li></ul></nav>
+  </div>
+</header>
+<main>
+
+<section>
+  <h1>Contacto</h1>
+  <p>Preencha o formulário. A validação é feita pelos recursos nativos do HTML5.</p>
+</section>
+
+<form action="#" method="post" enctype="multipart/form-data">
+  <fieldset>
+    <legend>Dados pessoais</legend>
+
+    <label for="nome">Nome completo *</label>
+    <input type="text" id="nome" name="nome" required minlength="3" maxlength="80">
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefone">Telefone *</label>
+    <input type="tel" id="telefone" name="telefone" required pattern="\+258\s?[0-9]{2}\s?[0-9]{3}\s?[0-9]{4}" placeholder="+258 84 123 4567">
+
+    <label for="data">Data preferida de contacto *</label>
+    <input type="date" id="data" name="data" required>
+
+    <label for="idade">Idade</label>
+    <input type="number" id="idade" name="idade" min="16" max="100">
+  </fieldset>
+
+  <fieldset>
+    <legend>Preferências</legend>
+
+    <label for="assunto">Assunto *</label>
+    <select id="assunto" name="assunto" required>
+      <option value="">Selecione...</option>
+      <option value="projeto">Projeto</option>
+      <option value="curriculo">Currículo</option>
+      <option value="outro">Outro</option>
+    </select>
+
+    <p><strong>Tipo de contacto *</strong></p>
+    <div class="radio-group">
+      <label><input type="radio" name="tipo" value="email" required> Email</label>
+      <label><input type="radio" name="tipo" value="telefone"> Telefone</label>
+    </div>
+
+    <label for="cv">Anexar CV/portfólio</label>
+    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
+  </fieldset>
+
+  <fieldset>
+    <legend>Mensagem</legend>
+    <label for="mensagem">Mensagem *</label>
+    <textarea id="mensagem" name="mensagem" rows="7" required minlength="10" maxlength="500"></textarea>
+  </fieldset>
+
+  <button class="btn" type="submit">Enviar mensagem</button>
+</form>
+
+</main>
+<footer>
+  <div class="container">
+    <p><strong>Contactos:</strong> lucia@example.com | +258 84 000 0000</p>
+    <p><strong>Redes:</strong> <a href="#">Facebook</a> · <a href="#">LinkedIn</a> · <a href="#">GitHub</a></p>
+    <p>Desenvolvido por Lúcia Baptista.</p>
+  </div>
+</footer>
+</body>
+</html>
