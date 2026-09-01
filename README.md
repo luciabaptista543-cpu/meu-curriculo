@@ -1,5 +1,6 @@
 # Meu Currículo — Site Pessoal
 
+**Site Publicado:** https://luciabaptista543-cpu.github.io/meu-curriculo/
 ## Estudante
 Lúcia Baptista — Licenciatura em Informática.
 
